@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Films from './pages/Films'
 import People from './pages/People'
 import Starships from './pages/Starships'
 import Planets from './pages/Planets'
