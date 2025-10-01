@@ -15,7 +15,7 @@ export default function People(){
 
             let data = res.data;
 
-            //data.length =10;
+            data.length =10;
 
         } catch (err) {
             console.error(err.message);
