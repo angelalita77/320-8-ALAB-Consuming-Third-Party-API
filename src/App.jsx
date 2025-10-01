@@ -6,6 +6,9 @@ import People from './pages/People'
 import Starships from './pages/Starships'
 import Planets from './pages/Planets'
 
+//Import components
+import NavBar from './components/NavBar'
+
 function App() {
   //setup our routes & route components
   // create 3 page components to user with the routes
@@ -14,11 +17,14 @@ function App() {
 
   return (
     <>
-     <Routes>
-      <Route path='/people' element={<People />}></Route>
-      <Route path='/ships' elements={<Starships />}></Route>
-      <Route path='/planets' elements={<Planets  />}></Route>
-     </Routes>
+      <main className='App'>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<People />}></Route>
+          <Route path='/ships' element={<Starships />}></Route>
+          <Route path='/planets' element={<Planets />}></Route>
+        </Routes>
+      </main>
     </>
   )
 }
