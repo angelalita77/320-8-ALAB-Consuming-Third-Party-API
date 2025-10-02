@@ -2,4 +2,23 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: rgb(200, 191, 209);
 }
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    color: rgb(24, 133, 235);
+    padding: 10px;
+    border: 2px block solid;
+}
+
+.nav a:hover{
+    background-color: cornsilk;
+}
+
+
+
+
+
+

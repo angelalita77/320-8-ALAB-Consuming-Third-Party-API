@@ -18,11 +18,14 @@ function App() {
     <>
       <main className='App'>
         <NavBar />
+
         <Routes>
-          <Route path='/' element={<People />}></Route>
-          <Route path='/ships' element={<Starships />}></Route>
-          <Route path='/planets' element={<Planets />}></Route>
+            <Route path='/' element={<People />}></Route>
+            <Route path='/ships' element={<Starships />}></Route>
+            <Route path='/planets' element={<Planets />}></Route>
         </Routes>
+
+
       </main>
     </>
   )

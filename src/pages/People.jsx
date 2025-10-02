@@ -45,6 +45,7 @@ export default function People(){
         return <Person key={i}{...per} />;
     });
 
-    return data ? <h1>{loaded()}</h1> : <h1>{loading()}</h1>
+    return data ? <div className='container'>{loaded()}</div> : <h1>{loading()}</h1>
+    
 
 }
